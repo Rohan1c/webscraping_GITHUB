@@ -27,6 +27,6 @@ for project in projects:
 df = pd.DataFrame(data) #converting into dataframe 
 
 df.to_csv("github_ml_projects.csv", index=False)
-print("✅ Data saved to github_ml_projects.csv")
+print(" Data saved to github_ml_projects.csv")
 
 browser.quit()
