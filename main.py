@@ -13,7 +13,7 @@ options.add_argument("--incognito")
 service = Service(executable_path=chromedriver_path)
 
 urls = [
-    "https://github.com/collections/machine-learning",
+    "https://github.com/collections/machine-learning", 
     "https://github.com/collections/deep-learning",
     "https://github.com/collections/artificial-intelligence"
 ]
