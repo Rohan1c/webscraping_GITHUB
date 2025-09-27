@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
-
+       
 chromedriver_path = r"C:\Users\rohan\webscraping\chromedriver.exe"
 
 options = webdriver.ChromeOptions()
